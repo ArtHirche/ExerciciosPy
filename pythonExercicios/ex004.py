@@ -1,0 +1,10 @@
+info = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(info))
+print('É um alfanumérico? ', info.isalnum())
+print('Só tem espaços? ', info.isspace())
+print('É um número? ', info.isnumeric())
+print('É alfabético? ', info.isalpha())
+print('Está em maiúsculas? ', info.isupper())
+print('Está em minúsculas? ', info.islower())
+print('Está capitalizado? ', info.istitle())
+#Correto!
