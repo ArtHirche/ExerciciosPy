@@ -1,4 +1,6 @@
-co = int(input('Digite o valor do cateto oposto: '))
-ca = int(input('Digite o valor do cateto adjacente: '))
-hip = (co*co)+(ca*ca)
-print(f'A hipotenusa valerá: {hip}')
+from math import hypot
+co = float(input('Comprimento do cateto oposto: '))
+ca = float(input('Comprimento do cateto adjacente: '))
+hi = hypot(co, ca)
+print(f'O valor da hipotenusa será: {hi:.2f}')
+#Correto!
