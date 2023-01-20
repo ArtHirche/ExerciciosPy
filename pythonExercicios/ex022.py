@@ -1,0 +1,10 @@
+nome = input('Digite seu nome completo: ')
+nomeMA = nome.upper()
+print(f'O nome convertido em letras maiúsculas será: {nomeMA}')
+nomeMI = nome.lower()
+print(f'O nome convertido em letras minúsculas será: {nomeMI}')
+nomeSP = nome.replace(' ', '')
+print(f'O nome tem ao todo: {len(nomeSP)} letras')
+nomePR = nome.split()
+print(f'Seu primeiro nome tem: {len(nomePR[0])} letras')
+#Correto!
