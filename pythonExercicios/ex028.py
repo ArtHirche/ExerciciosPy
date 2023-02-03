@@ -1,9 +1,9 @@
 from random import randint
 num = int(input('Digite o número do seu palpite: '))
-pc = randint(0, 5)
-print(f'O número escolhido pela máquina foi {pc}')
-if num == pc:
-    print('VOCÊ ADIVINHOU! XD')
+máquina = randint(0, 5)
+print(f'O número escolhido pela máquina foi: {máquina}')
+if num == máquina:
+    print('\033[1;32mVOCÊ ADIVINHOU! XD\033[m')
 else:
-    print('VOCÊ NÃO ADIVINHOU! :(')
-print('---FIM DE JOGO---')
+    print('\033[1;31mVOCÊ NÃO ADIVINHOU! :(\033[m')
+print('\033[1m---FIM DE JOGO---\033[m')

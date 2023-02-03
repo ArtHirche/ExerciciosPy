@@ -5,5 +5,5 @@ n3 = input('Digite o nome do terceiro aluno: ')
 n4 = input('Digite o nome do quarto aluno: ')
 lista = [n1, n2, n3, n4]
 shuffle(lista)
-print(f'A ordem de apresentação será:\n{lista}')
+print(f'A ordem de apresentação será:\n\033[1;32m{lista}\033[m')
 #Correto!
