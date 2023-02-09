@@ -31,7 +31,7 @@ def iniciaJogo():
             determinaVitoria(int(jogador), maquina)
         else:
             print(
-                'Desculpe, não entendi! Reinicie o programa. NÃO ESQUEÇA:\nDigite 1 para PEDRA\n 2 para PAPEL\n 3 para TESOURA'
+                'Desculpe, não entendi! Reinicie o programa. NÃO ESQUEÇA:\nDigite 1 para PEDRA\n2 para PAPEL\n3 para TESOURA'
             )
         restart = input('Pressione Enter para continuar.')
 
