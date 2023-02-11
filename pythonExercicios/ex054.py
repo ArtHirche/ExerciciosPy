@@ -1,16 +1,15 @@
-from time import sleep
 from datetime import date
-soma = 0
-maioridade = 0
-menoridade = 0
-atual = date.today()year
-for c in range(0,7):
-    ano = int(input('Digite o ano de nascimento: '))
-    idade = atual - ano
-    soma += idade
+
+atual = date.today().year
+totalMaior = 0
+totalMenor = 0
+for pess in range(1, 8):
+    nasc = int(input(f'Em que ano a {pess}ª nasceu? '))
+    idade = atual - nasc
     if idade >= 18:
-        maioridade += 1
+        totalMaior += 1
     else:
-        menoridade += 1
-    sleep(0,5)
-    print(f'A soma das idades é igual a {soma}')
+        totalMenor += 1
+print(
+    f'Ao todo tivemos {totalMaior} pessoas maiores de idade.\nE tivemos {totalMenor} pessoas menores de idade.'
+)
