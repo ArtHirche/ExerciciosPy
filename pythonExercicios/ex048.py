@@ -1,5 +1,7 @@
 soma = 0
-for c in range(0, 501, 2):
+contador = 0
+for c in range(1, 501, 2):
     if c % 3 == 0:
+        contador += 1
         soma += c
-    print(soma)
+print(f'A soma de todos os {contador} valores solicitados é {soma}')
