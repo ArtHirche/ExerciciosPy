@@ -1,4 +1,5 @@
 from time import sleep
+from os import system
 
 num1 = int(input('Digite o primeiro valor: '))
 num2 = int(input('Digite o segundo valor: '))
@@ -10,6 +11,7 @@ while opcao != 5:
     )
     opcao = int(input('Qual sua opção?\nDIGITE AQUI: '))
     print('=-=='*7)
+    system('cls')
     if opcao == 1:
         soma = num1+num2
         print(f'A soma entre {num1} e {num2} é {soma}.')
