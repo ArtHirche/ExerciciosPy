@@ -21,11 +21,8 @@ while opcao != 9:
         num2 = int(input('Digite o valor da multiplicação: '))
         print(f'A multiplicação será {num1*num2}')
     elif opcao == 5:
-            num2 = int(input('Digite o valor da raiz: '))
-            if num2 == 2:
-                print(f'A raiz quadrada de {num1} será {num1**(1/2)}')
-            elif num2 == 3:
-                print(f'A raiz cúbica de {num1} é {num1**(1/3)}')
+            raiz = int(input('Digite o valor da raiz: '))
+            print(f'A raiz {raiz} de {num1} será {num1**(1/raiz)}')
     elif opcao == 6:
         num2 = int(input('Digite o valor do expoente: '))
         print(f'A base escolhida foi {num1}, o expoente foi {num2}, a potência será: {num1**num2}')
@@ -40,5 +37,5 @@ while opcao != 9:
     elif opcao == 0 or opcao > 9:
         print('Não entendi. Digite a operação de novo.')
 print('Ok. Finalizando...')
-sleep(5)
+sleep(1)
 print('Programa finalizado. Obrigado pela preferência!')
