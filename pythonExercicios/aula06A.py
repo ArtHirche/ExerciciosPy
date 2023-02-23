@@ -6,7 +6,6 @@ s = n1 + n2
 print(f'A soma entre {n1} e {n2} vale {s}')
 print('O tipo de N1 é: ', type(n1))
 print('O tipo de N2 é: ', type(n2))
-
 """
 TEORIA:
 
